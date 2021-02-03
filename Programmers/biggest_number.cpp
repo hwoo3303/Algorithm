@@ -14,6 +14,7 @@ string solution(vector<int> numbers) {
     string answer = "";
     vector<string> strNum;
     
+    // string compare를 위한 to_string
     for(int i = 0; i < numbers.size(); i++){
         string tempStr = to_string(numbers[i]);
         strNum.push_back(tempStr);
